@@ -1,0 +1,14 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>AddItem</title>
+</head>
+<body>
+<h3>Add Item, pls</h3>
+<form action="/contact/" method="post">
+    {% csrf_token %}
+    {{ form }}   
+    <input type="submit" value="Submit" />
+</form>
+</body>
+</html>

@@ -26,7 +26,10 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
+TEMPLATE_DIRS = (
+    '/home/damir/djangoenvyoutube/bin/anton_petrenko_tasks_repeat/buying_list/templates',
+    '/home/damir/djangoenvyoutube/bin/anton_petrenko_tasks_repeat/templates',
+)
 # Application definition
 
 INSTALLED_APPS = (

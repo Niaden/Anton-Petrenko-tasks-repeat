@@ -1,0 +1,16 @@
+{% extends 'main.html' %}
+
+{% block showlist %}
+
+ <table border="1" width="100%" cellpadding="5">
+{% for item in items %}
+<tr>
+	<th>{{ item.item_name }}</th>
+	<th>{{ item.item_num }}</th>
+	<th>{{ item.item_measure }}</th>
+	<th>{{ item.item_date }}</th>
+</tr>
+{% endfor %}
+</table>
+
+{% endblock %}
