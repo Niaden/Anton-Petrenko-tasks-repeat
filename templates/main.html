@@ -1,10 +1,15 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Список покупок</title>
+	<link rel="stylesheet" type="text/css" href="{% static "static/css/bootstrap.css" %}">
 </head>
 <body>
-	<h3>Список покупок</h3>
+	<h2><a href="/">На главную страницу</a></h2>
+	<h5><a href="/additem/">Добавить покупку</a></h5>
+	<!--p><img src="{% static "static/lol.jpg" alt="golaya baba" %}"></p-->
 	{% block showlist %} {% endblock %}
+	{% block additem %} {% endblock %}
 </body>
 </html

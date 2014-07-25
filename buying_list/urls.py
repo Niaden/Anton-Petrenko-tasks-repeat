@@ -9,4 +9,5 @@ urlpatterns = patterns('',
     url(r'^showlist/$', 'buying_list.views.showlist'),
     url(r'^additem/$', 'buying_list.views.additem'),
     url(r'^contact/$', 'buying_list.views.contact'),
+    url(r'^$', 'buying_list.views.showlist'),
 )
