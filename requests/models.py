@@ -9,4 +9,4 @@ class Request(models.Model):
 	request_path = models.CharField(max_length = 300)
 
 	def __unicode__(self):
-		return "{} {} {}".format('request_date','request_path','request_method')
+		return "{} {} {}".format(self.request_date,self.request_path,self.request_method)
