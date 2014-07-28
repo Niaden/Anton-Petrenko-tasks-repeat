@@ -1,0 +1,16 @@
+{% extends 'main.html' %}
+
+{% block showrequests %}
+
+<h3>Список запросов</h3>
+ <table border="1" width="60%" style="margin-left: 50px;">
+{% for request in requests %}
+<tr>
+	<th>{{ request.request_date }}</th>
+	<th>{{ request.request_method }}</th>
+	<th>{{ request.request_path }}</th>
+</tr>
+{% endfor %}
+</table>
+
+{% endblock %}

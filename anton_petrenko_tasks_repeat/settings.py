@@ -29,6 +29,7 @@ ALLOWED_HOSTS = []
 TEMPLATE_DIRS = (
     '/home/damir/djangoenvyoutube/bin/anton_petrenko_tasks_repeat/buying_list/templates',
     '/home/damir/djangoenvyoutube/bin/anton_petrenko_tasks_repeat/templates',
+    '/home/damir/djangoenvyoutube/bin/anton_petrenko_tasks_repeat/requests/templates',
 )
 # Application definition
 
@@ -51,6 +52,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'requests.models.WebRequestMiddleware'
 )
 
 ROOT_URLCONF = 'anton_petrenko_tasks_repeat.urls'
@@ -73,7 +75,7 @@ DATABASES = {
 
 LANGUAGE_CODE = 'ru-RU'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Kiev'
 
 USE_I18N = True
 
