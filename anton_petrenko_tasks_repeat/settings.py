@@ -27,9 +27,9 @@ TEMPLATE_DEBUG = True
 ALLOWED_HOSTS = []
 
 TEMPLATE_DIRS = (
-    '/home/damir/djangoenvyoutube/bin/anton_petrenko_tasks_repeat/buying_list/templates',
-    '/home/damir/djangoenvyoutube/bin/anton_petrenko_tasks_repeat/templates',
-    '/home/damir/djangoenvyoutube/bin/anton_petrenko_tasks_repeat/requests/templates',
+    '/home/damir/djangostudying/bin/anton_petrenko_tasks_repeat/buying_list/templates',
+    '/home/damir/djangostudying/bin/anton_petrenko_tasks_repeat/templates',
+    '/home/damir/djangostudying/bin/anton_petrenko_tasks_repeat/requests/templates',
 )
 # Application definition
 
@@ -90,5 +90,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    ('static', '/home/damir/djangoenvyoutube/bin/anton_petrenko_tasks_repeat/static'),
+    ('static', '/home/damir/djangostudying/bin/anton_petrenko_tasks_repeat/static'),
 )
